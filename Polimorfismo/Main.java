@@ -26,5 +26,8 @@ public class Main {
 
         ContaPoupanca poupanca = new ContaPoupanca();
         poupanca.tipo();
+
+        ExecutarParametrico parametrico = new ExecutarParametrico();
+		parametrico.executar();
     }
 }
